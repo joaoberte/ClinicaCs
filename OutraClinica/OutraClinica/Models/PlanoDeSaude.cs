@@ -7,5 +7,8 @@ namespace OutraClinica.Models
 {
     public class PlanoDeSaude
     {
+        public int PlanoDeSaudeID { get; set; }
+
+        public string nome { get; set; }
     }
 }
