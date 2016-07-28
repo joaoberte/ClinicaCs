@@ -207,6 +207,7 @@
     <Compile Include="Models\Funcionario.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Medico.cs" />
     <Compile Include="Models\Paciente.cs" />
     <Compile Include="Models\PlanoDeSaude.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
