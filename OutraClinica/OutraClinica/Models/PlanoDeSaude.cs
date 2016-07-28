@@ -10,5 +10,7 @@ namespace OutraClinica.Models
         public int PlanoDeSaudeID { get; set; }
 
         public string nome { get; set; }
+
+        public virtual ICollection<Consulta> Consultas { get; set; }
     }
 }

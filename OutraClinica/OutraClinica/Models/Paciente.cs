@@ -38,10 +38,6 @@ namespace OutraClinica.Models
         [Display(Name = "Observações")]
         public string observacoes { get; set; }
 
-
-        
-
-
-
+        public virtual ICollection<Consulta> Consultas { get; set; }
     }
 }
