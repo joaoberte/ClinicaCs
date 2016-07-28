@@ -14,9 +14,12 @@ namespace OutraClinica.Models
         public DateTime Hora { get; set; }
 
         public int PlanoDeSaudeID { get; set; }
-        public PlanoDeSaude PlanoDeSaude { get; set; }
+        public virtual PlanoDeSaude PlanoDeSaude { get; set; }
 
         public int PacienteID { get; set; }
-        public Paciente Paciente { get; set; }
+        public virtual Paciente Paciente { get; set; }
+
+        public int MedicoID { get; set; }
+        public virtual Medico Medico { get; set; }
     }
 }

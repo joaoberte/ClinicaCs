@@ -8,5 +8,7 @@ namespace OutraClinica.Models
     public class Medico : Funcionario
     {
         public string especialidades { get; set; }
+
+        public virtual ICollection<Consulta> Consultas { get; set; }
     }
 }
